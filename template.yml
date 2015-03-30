@@ -1,0 +1,109 @@
+# lean_cereal.yml
+#
+# Lean Canvas Business Plan Serialization Template
+#
+# This template is designed to serialize the lean canvas style
+# of business plan into a format more friendly to communication
+# and version control.
+# 
+# Template licence: CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/
+
+%YAML 1.1
+---
+#Upstream url for template specification and tools.
+template: 
+
+tmplateversion: "0.1"
+
+#Date of initial conception, human readable YYYY-MM-DD format.
+date: 
+
+# Upstream location for this file where modifications can be tracked.
+url: 
+
+# Optional unix timestamp of last modification. This information is
+# usually captured as metadata in the upstream repository ('url' field).
+modified: 
+
+authors:
+    - 
+    - 
+    - 
+
+# licence or copyright notice for the content of the embedded business plan.
+licence: 
+
+#uuid: A unique id (v.4) for machine identification of this business plan.
+# Intended to remain stable across revisions.
+# use `uuidgen` on POSIX systems or online https://www.uuidgenerator.net/
+uuid: 
+
+#Tags for automated curation/taxonomy and improved searchability.
+tags:
+    - 
+    - 
+    - 
+plan:
+    proposition:
+        # A concise elevator pitch.
+        elevator: |-
+
+        # Business/product name if deemed relevant to execution of the model.
+        name: 
+    product:
+        problem:
+            - 
+            - 
+            - 
+        solution:
+            - 
+            - 
+            - 
+        # What will need to be tracked to determine success or opportunity.
+        metrics:
+            - 
+            - 
+            - 
+
+        # The nested keys below are for example only and will differ
+        # from industry to industry. Adjust as neccessary.
+        costs:
+            customer_acquisition: |-
+                
+            distribution: |-
+                
+            hosting: |-
+                
+            labour: |-
+                
+    market:
+        # Any relevant barriers to widespread business competition.
+        moat: |-
+            
+        # Sales channels.
+        channels:
+            - 
+            - 
+            - 
+        audience: 
+            - 
+            - 
+            - 
+        revenue:
+            model: |-
+                
+            lifespan: |-
+                
+            margin: |-
+                
+            # Estimated potential revenue at 100% market share.
+            scope: |-
+
+        # Existing competitors or solutions.
+        existing:
+            - 
+            - 
+            - 
+...
+
+# vim: set et sw=4 ts=4: #
